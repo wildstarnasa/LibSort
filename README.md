@@ -1,5 +1,7 @@
 #LibSort 1.0
 
+See the [Wiki](https://github.com/wildstarnasa/LibSort/wiki) for examples
+
 **Table of Contents**  
 - [Rationale](#user-content-rationale)
     - [API](#user-content-api)
