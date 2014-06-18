@@ -93,7 +93,7 @@ function LibSort:ProcessOrderFunction(addonName, data, tiebreaker, itemA, itemB)
 
 	local response = data.func(itemA, itemB)
 	if response == 0 and self.TiebreakerChain[addonName][data.key] then		
-		return self:ProcessOrderFunction(tiebreaker, self.TiebreakerChain[addonName][tiebreaker.key], itemA, itemB)
+		return self:ProcessOrderFunction(addonName, tiebreaker, self.TiebreakerChain[addonName][tiebreaker.key], itemA, itemB)
 	else
 		return response
 	end
