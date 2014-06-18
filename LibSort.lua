@@ -1,5 +1,5 @@
 
-local MAJOR,MINOR = "Wob:LibSort-1.0", 2
+local MAJOR,MINOR = "Wob:LibSort-1.0", 3
 -- Get a reference to the package information if any
 local APkg = Apollo.GetPackage(MAJOR)
 -- If there was an older version loaded we need to see if this is newer
